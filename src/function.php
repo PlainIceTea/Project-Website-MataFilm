@@ -6,7 +6,7 @@ if (session_status() == PHP_SESSION_NONE) {
 
 // Fungsi untuk membuat koneksi ke database
 function connectDatabase() {
-    $conn = mysqli_connect("localhost", "root", "kabut123", "matafilm_db");
+    $conn = mysqli_connect("localhost", "root", "password", "matafilm_db");
 
     // Memeriksa koneksi
     if (!$conn) {
